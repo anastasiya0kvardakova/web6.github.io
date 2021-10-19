@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Задание 6.</title>
+    <style>
+      input 
+      {
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app">
+      <form>
+        Введите количество товара:
+        <input type="text" id="num" placeholder="Количество" /><br />
+        Выберите тип товара:
+        <select id="type">
+          <option value="1" selected>Вариант 1</option>
+          <option value="2">Вариант 2</option>
+          <option value="3">Вариант 3</option></select>
+          <br />
+        <div id="radios">
+          <input type="radio" name="option" value="10" />Опция 1
+          <input type="radio" name="option" value="15" />Опция 2 
+          <br />
+        </div>
+        <div id="checkbox">
+          <input type="checkbox" id="checkbox-check" value="100" /> Другой вариант
+        </div>
+      </form>
+      Итоговая стоимость: <input type="text" id="total" disabled />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
